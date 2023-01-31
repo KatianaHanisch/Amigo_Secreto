@@ -32,7 +32,7 @@ public class AmigoSecreto {
 
             while (nomesSorteados < numeroParticipantes) {
                   if (cadastro) {
-                        System.out.println("CADASTRO: Digite seu nome");
+                        System.out.println("CADASTRO: Digite seu nome:");
                         String nomeCadastro = scan.nextLine();
                         nomes[nomesCadastrados] = nomeCadastro;
                         nomesCadastrados++;
@@ -42,7 +42,7 @@ public class AmigoSecreto {
                               System.out.println("Inicio do Sorteio!");
                         }
                   } else {
-                        System.out.println("SORTEIO: Digite seu nome");
+                        System.out.println("SORTEIO: Digite seu nome:");
                         String nome = scan.nextLine();
                         int numeroSorteado = rdm.nextInt(numeroParticipantes);
 
